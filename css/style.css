@@ -50,10 +50,10 @@ li a:active {
 }
 
 h1 {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     color: #ff3a75; 
-    font-size: 4rem; 
+    font-size: 3.6rem; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 4px;
     font-weight: 900;
@@ -106,7 +106,7 @@ p {
 
 img {
     border: 4px double white;
-    width: 70%;
+    width: 80%;
 }
 
 h2 {
