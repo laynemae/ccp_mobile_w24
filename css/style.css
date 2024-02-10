@@ -65,13 +65,13 @@ h1 {
 p {
     color: white; 
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 4px 4px 0px #ffa251;
 }
 
 #welcome p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bolder;
     text-align: center;
     margin: 40px 20px 20px 40px;
@@ -105,7 +105,7 @@ p {
 
 img {
     border: 4px double white;
-    width: 95%;
+    width: 100%;
 }
 
 h2 {
