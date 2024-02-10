@@ -71,10 +71,10 @@ p {
 }
 
 #welcome p {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     font-weight: bolder;
     text-align: center;
-    margin: 40px 20px 20px 40px;
+    margin: 30px 20px 20px 30px;
     text-shadow: 4px 4px 0px #ffa251;
 }
 
@@ -105,7 +105,7 @@ p {
 
 img {
     border: 4px double white;
-    width: 110%;
+    width: 140%;
 }
 
 h2 {
