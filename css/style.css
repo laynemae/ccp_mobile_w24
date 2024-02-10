@@ -65,7 +65,7 @@ h1 {
 p {
     color: white; 
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 4px 4px 0px #ffa251;
 }
@@ -105,7 +105,7 @@ p {
 
 img {
     border: 4px double white;
-    width: 100%;
+    width: 110%;
 }
 
 h2 {
