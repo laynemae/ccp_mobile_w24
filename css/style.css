@@ -75,7 +75,7 @@ p {
     text-shadow: 2px 2px 0px #ffa251;
 }
 
-#welcome p {
+.welcome p {
     font-size: 0.9em;
     font-weight: bolder;
     text-align: center;
@@ -83,7 +83,7 @@ p {
     text-shadow: 1px 1px 0px #ffa251;
 }
 
-#grid {
+.grid {
     padding: 0px 20px 20px 20px;
     display: grid;
     grid-template-columns: auto auto;
@@ -92,23 +92,23 @@ p {
     grid-column-gap: 20px;
 }
 
-#camping {
+.camping {
     grid-column: 1;
     grid-row: 2;
     justify-self: end;
 }
 
-#hobbies {
+.hobbies {
     grid-column: 2;
     grid-row: 2;
     text-align: left;
 }
 
-#intro {
+.intro {
     text-align: right;
 }
 
-#grid img {
+.grid img {
     border: 4px double white;
     width: 110%;
 }
@@ -123,11 +123,11 @@ h2 {
     padding-bottom: 0.5em;
 }
 
-#bacon p {
+.bacon p {
     font-size: 0.8em;
 }
 
-#bacon {
+.bacon {
     padding: 0em 1em 0em 1em;
     display: grid;
     grid-template-columns: auto auto;
@@ -137,12 +137,12 @@ h2 {
     grid-column-gap: 20px;
 }
 
-img, #recipeintro img, #photogallery video {
+img, .recipeintro img, .photogallery video {
     border: 4px double white;
     width: 100%;
 }
 
-#gallery {
+.gallery {
     padding: 0px 20px 20px 20px;
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -162,18 +162,18 @@ h3, h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#gallery img, #gallery video {
+.gallery img, .gallery video {
     border: 2px double white;
     width: 100%;
 }
 
-#detail {
+.detail {
     padding: 0px 10px 10px 10px;
     margin: 2% 5%;
     font-size: 0.8em;
 }
 
-#likelist {
+.likelist {
     color: white; 
     font-size: 1em;
     margin: 4% 5%;
@@ -184,11 +184,11 @@ h3, h4 {
     margin-bottom: 17%;
 }
 
-#likelist li {
+.likelist li {
     margin-bottom: 1em;
 }
 
-#gallery2 {
+.gallery2 {
     padding: 0px 20px 20px 20px;
     display: grid;
     grid-template-columns: auto auto;
@@ -199,7 +199,7 @@ h3, h4 {
     margin-bottom: 3%;
 }
 
-#gallery3 {
+.gallery3 {
     padding: 0px 20px 20px 20px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -210,19 +210,19 @@ h3, h4 {
     margin-bottom: 3%;
 }
 
-#recipeintro {
+.recipeintro {
     padding: 0em 1em 0em 1em;
     margin: 2% 5%;
     margin-bottom: 5%;
 }
 
-#recipeintro a:link, #recipeintro a:visited {
+.recipeintro a:link, .recipeintro a:visited {
     text-decoration: none;
     font-weight: bold;
     color:#ce1e59;
 }
 
-#recipelist {
+.recipelist {
     padding: 0em 1em 0em 3em;
     text-shadow: 2px 2px 0px #ffa251;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -232,7 +232,7 @@ h3, h4 {
     font-weight: 500;
 }
 
-#photogallery {
+.photogallery {
     padding: 0px 20px 20px 20px;
     display: grid;
     grid-template-columns: auto auto;
