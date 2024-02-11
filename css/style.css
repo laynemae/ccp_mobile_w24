@@ -23,6 +23,10 @@ nav a {
     text-shadow: 2px 2px 0px #ff789c; 
 }
 
+.active {
+    text-decoration: underline;
+}
+
 nav li { 
     display: inline;
     gap: 10em;
@@ -104,7 +108,7 @@ p {
     text-align: right;
 }
 
-img {
+#grid img {
     border: 4px double white;
     width: 110%;
 }
@@ -113,22 +117,73 @@ h2 {
     color: white; 
     font-size: 38px;
     font-weight: bolder;
-    margin: 40px 20px 20px 40px;
+    margin: 20px 20px 10px 40px;
     text-shadow: 4px 4px 0px #ffa251;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0.5em;
 }
 
 #bacon p {
-    font-size: 32px;
+    font-size: 0.8em;
 }
 
 #bacon {
-    padding: 0px 20px 20px 20px;
+    padding: 0em 1em 0em 1em;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    margin: 100px 100px;
+    margin: 1% 5%;
     grid-row-gap: 50px;
-    grid-column-gap: 10px;
-    height: 500px;
+    grid-column-gap: 20px;
+}
+
+img {
+    border: 4px double white;
+    width: 100%;
+}
+
+#gallery {
+    padding: 0px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    margin: 4% 5%;
+    grid-row-gap: 50px;
+    grid-column-gap: 20px;
+    margin-bottom: 3%;
+}
+
+h3, h4 {
+    color: white; 
+    text-decoration: underline;
+    font-size: 1.6em;
+    margin: 20px 20px 10px 40px;
+    text-shadow: 2px 2px 0px #ffa251;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#gallery img, #gallery video {
+    border: 2px double white;
+    width: 100%;
+}
+
+#detail {
+    padding: 0px 10px 10px 10px;
+    margin: 2% 5%;
+    font-size: 0.8em;
+}
+
+#likelist {
+    color: white; 
+    font-size: 1em;
+    margin: 4% 5%;
+    text-shadow: 2px 2px 0px #ffa251;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: circle;
+    padding: 0em 1em 0em 2em;
+    margin-bottom: 17%;
+}
+
+#likelist li {
+    margin-bottom: 1em;
 }
